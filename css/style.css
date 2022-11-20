@@ -115,15 +115,17 @@ h6 {
   background-image: url("../img/parallax/parallax.jpg"); }
 
 .parallax {
-  height: 400px;
-  width: 100%;
-  background-position: center;
+  -webkit-background-size: 100% 185px;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 @media (min-width: 36.25rem) {
   .parallax{
     background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   } 
 }
 
@@ -2441,7 +2443,7 @@ input[type=time]::-webkit-calendar-picker-indicator {
 
 @media (max-width: 48rem) {
   .parallax {
-    height: 300px;
+    height: 185px;
   }
 
   .nav {
