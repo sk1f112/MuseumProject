@@ -15,6 +15,7 @@ html,
 body {
   height: 100%;
   min-width: 320px;
+  position: relative;
 }
 
 body {
@@ -111,17 +112,20 @@ h6 {
   bottom: -25px;
 }
 
-.no-webp .parallax {
-  background-image: url("../img/parallax/parallax.jpg"); }
+/* .no-webp .parallax {
+  background-image: url("../img/parallax/parallax.jpg"); } */
 
 .parallax {
   height: 400px;
   width: 100%;
-  background: fixed;
-  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media (min-width: 36.25rem) {
+  .parallax{
+    background-attachment: fixed;
+  } 
 }
 
 .header {
