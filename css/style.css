@@ -1380,12 +1380,14 @@ input[type=date]::-webkit-calendar-picker-indicator {
   background-image: url("../img/inputs/arrow.svg");
   background-position: right 15px bottom;
   width: 35px;
+  -webkit-appearance: none;
 }
 
 input[type=time]::-webkit-calendar-picker-indicator {
   background-image: url("../img/inputs/arrow.svg");
   background-position: right 15px bottom;
   width: 35px;
+  -webkit-appearance: none;
 }
 
 .entry__input {
