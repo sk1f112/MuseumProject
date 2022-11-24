@@ -1382,7 +1382,9 @@ input[type=date]::-webkit-calendar-picker-indicator {
   width: 35px;
 }
 #booking-date, #booking-time{
+  -moz-appearance: none;
   -webkit-appearance: none;
+  appearance: none;
 }
 
 input[type=time]::-webkit-calendar-picker-indicator {
